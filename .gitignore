@@ -5,11 +5,17 @@ bin
 .project
 .springBeans
 .idea
+.DS_Store
 .iml
 *.log
 *.iml
+<<<<<<< HEAD
+server-*
+=======
+>>>>>>> origin
 common-*
 provider-*
-server-*
 facade-*
 configuration
+data
+tx-manager
