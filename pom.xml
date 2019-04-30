@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.moseeker</groupId>
 	<artifactId>alphacloud</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -24,23 +24,20 @@
 		<module>common-core</module>
 		<module>common-api</module>
 		<module>common-jooq</module>
-		<module>provider-jooq</module>
 		<module>provider-dict</module>
 		<module>provider-user</module>
 		<module>provider-company</module>
 		<module>provider-position</module>
 		<module>provider-profile</module>
 		<module>provider-application</module>
-		<module>provider-ats</module>
 		<module>provider-search</module>
 		<module>provider-talentpool</module>
 		<module>provider-parsing</module>
 		<module>provider-messaging</module>
-		<module>provider-careerstory</module>
-		<module>provider-jobboard</module>
+		<module>provider-redpacket</module>
+		<module>provider-im</module>
+		<module>provider-airobot</module>
 		<module>facade-hr</module>
-		<module>facade-wechat</module>
-		<module>tx-manager</module>
 	</modules>
 	<dependencyManagement>
 		<dependencies>
